@@ -28,9 +28,9 @@ public class StudentTableModel extends AbstractTableModel {
         return 4;
     }
 
-
-    public Object getValueAt(int column) {
+    @Override
+    public Object getValueAt(int rowIndex, int columnIndex) {
         String[] colNames = {"Фамилия", "Имя", "Отчество", "Дата"};
-        return colNames[column];
+        return colNames[columnIndex];
     }
 }
