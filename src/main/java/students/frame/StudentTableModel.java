@@ -55,4 +55,15 @@ public class StudentTableModel extends AbstractTableModel {
         }
         return null;
     }
+
+    // Добавим метод, который возвращает студента по номеру строки
+    // Это нам пригодится чуть позже
+    public Student getStudent(int rowIndex) {
+        if (students != null) {
+            if (rowIndex < students.size() && rowIndex >= 0) {
+                return (Student) students.get(rowIndex);
+            }
+        }
+        return null;
+    }
 }
