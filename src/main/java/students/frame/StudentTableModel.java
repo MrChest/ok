@@ -3,6 +3,7 @@ package students.frame;
 import students.logic.Student;
 
 import javax.swing.table.AbstractTableModel;
+import java.text.DateFormat;
 import java.util.Vector;
 
 /**
@@ -28,9 +29,30 @@ public class StudentTableModel extends AbstractTableModel {
         return 4;
     }
 
+    // Вернем наименование колонки
+    public String getColumnName(int column) {
+        String[] colNames = {"Фамилия", "Имя", "Отчество", "Дата"};
+        return colNames[column];
+    }
+
     @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
-        String[] colNames = {"Фамилия", "Имя", "Отчество", "Дата"};
-        return colNames[columnIndex];
+        if (students != null) {
+            // Получаем из вектора студента
+            Student st = (Student) students.get(rowIndex);
+            // В зависимости от колонки возвращаем имя, фамилия и т.д.
+            switch (columnIndex) {
+                case 0:
+                    return st.getSurName();
+                case 1:
+                    return st.getFirstName();
+                case 2:
+                    return st.getPatronymic();
+                case 3:
+                    return DateFormat.getDateInstance(DateFormat.SHORT).format(
+                            st.getDateOfBirth());
+            }
+        }
+        return null;
     }
 }
