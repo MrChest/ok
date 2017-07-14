@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a8b237b-3a13-4af2-ae58-57574ffcb148" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/students/frame/StudentsFrame$1.class" afterPath="$PROJECT_DIR$/target/classes/students/frame/StudentsFrame$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/students/frame/StudentsFrame.class" afterPath="$PROJECT_DIR$/target/classes/students/frame/StudentsFrame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/students/logic/ManagementSystem.class" afterPath="$PROJECT_DIR$/target/classes/students/logic/ManagementSystem.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/students/frame/StudentsFrame.java" afterPath="$PROJECT_DIR$/src/main/java/students/frame/StudentsFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/students/logic/ManagementSystem.java" afterPath="$PROJECT_DIR$/src/main/java/students/logic/ManagementSystem.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentsFrame.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StudentsFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/students/frame/StudentsFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-361">
-              <caret line="183" column="5" lean-forward="true" selection-start-line="183" selection-start-column="5" selection-end-line="183" selection-end-column="5" />
+            <state relative-caret-position="285">
+              <caret line="221" column="36" lean-forward="true" selection-start-line="221" selection-start-column="36" selection-end-line="221" selection-end-column="36" />
               <folding>
                 <element signature="e#2961#2968#0" expanded="true" />
                 <element signature="e#6988#6989#0" expanded="true" />
@@ -62,10 +57,25 @@
                 <element signature="e#7740#7741#0" expanded="true" />
                 <element signature="e#7811#7812#0" expanded="true" />
                 <element signature="e#7879#7880#0" expanded="true" />
-                <element signature="e#7956#7957#0" expanded="true" />
                 <element signature="e#8026#8027#0" expanded="true" />
                 <element signature="e#8167#8168#0" expanded="true" />
                 <element signature="e#8219#8220#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentTableModel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/students/frame/StudentTableModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,6 +166,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -171,6 +188,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/students/logic/ManagementSystem.java" />
         <option value="$PROJECT_DIR$/src/main/java/students/frame/StudentsFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/students/frame/StudentTableModel.java" />
       </list>
     </option>
   </component>
@@ -222,7 +240,9 @@
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -572,7 +592,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -586,7 +606,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26332623" sideWeight="0.4902439" order="0" side_tool="false" content_ui="combo" />
@@ -650,7 +670,6 @@
             <element signature="e#7740#7741#0" expanded="true" />
             <element signature="e#7811#7812#0" expanded="true" />
             <element signature="e#7879#7880#0" expanded="true" />
-            <element signature="e#7956#7957#0" expanded="true" />
             <element signature="e#8026#8027#0" expanded="true" />
             <element signature="e#8167#8168#0" expanded="true" />
             <element signature="e#8219#8220#0" expanded="true" />
@@ -763,7 +782,6 @@
             <element signature="e#7740#7741#0" expanded="true" />
             <element signature="e#7811#7812#0" expanded="true" />
             <element signature="e#7879#7880#0" expanded="true" />
-            <element signature="e#7956#7957#0" expanded="true" />
             <element signature="e#8026#8027#0" expanded="true" />
             <element signature="e#8167#8168#0" expanded="true" />
             <element signature="e#8219#8220#0" expanded="true" />
@@ -849,7 +867,6 @@
             <element signature="e#7740#7741#0" expanded="true" />
             <element signature="e#7811#7812#0" expanded="true" />
             <element signature="e#7879#7880#0" expanded="true" />
-            <element signature="e#7956#7957#0" expanded="true" />
             <element signature="e#8026#8027#0" expanded="true" />
             <element signature="e#8167#8168#0" expanded="true" />
             <element signature="e#8219#8220#0" expanded="true" />
@@ -935,7 +952,6 @@
             <element signature="e#7740#7741#0" expanded="true" />
             <element signature="e#7811#7812#0" expanded="true" />
             <element signature="e#7879#7880#0" expanded="true" />
-            <element signature="e#7956#7957#0" expanded="true" />
             <element signature="e#8026#8027#0" expanded="true" />
             <element signature="e#8167#8168#0" expanded="true" />
             <element signature="e#8219#8220#0" expanded="true" />
@@ -1122,8 +1138,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/students/frame/StudentsFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
-          <caret line="183" column="5" lean-forward="true" selection-start-line="183" selection-start-column="5" selection-end-line="183" selection-end-column="5" />
+        <state relative-caret-position="285">
+          <caret line="221" column="36" lean-forward="true" selection-start-line="221" selection-start-column="36" selection-end-line="221" selection-end-column="36" />
           <folding>
             <element signature="e#2961#2968#0" expanded="true" />
             <element signature="e#6988#6989#0" expanded="true" />
@@ -1140,10 +1156,23 @@
             <element signature="e#7740#7741#0" expanded="true" />
             <element signature="e#7811#7812#0" expanded="true" />
             <element signature="e#7879#7880#0" expanded="true" />
-            <element signature="e#7956#7957#0" expanded="true" />
             <element signature="e#8026#8027#0" expanded="true" />
             <element signature="e#8167#8168#0" expanded="true" />
             <element signature="e#8219#8220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/students/frame/StudentTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
           </folding>
         </state>
       </provider>
