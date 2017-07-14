@@ -19,7 +19,7 @@ public class ManagementSystem {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/students?autoReconnect=true&useSSL=false";
-            conn = DriverManager.getConnection(url, "root", "root");
+            conn = DriverManager.getConnection(url, "root", "admin");
             System.out.println("1");
         }
         catch (ClassNotFoundException e){
